@@ -1,0 +1,150 @@
+
+/* navbar */
+.navbar-brand{
+    background-color: #4aaaa5;
+    color:white;
+ 
+}
+.navbar-custom{
+    background-color:white;
+ 
+}
+.nav>li>a{
+    color:#777777;
+    cursor: default;
+}
+
+/* body */
+body{
+    background-image:url(../images/white-waves.png);
+    padding: 0;
+    margin: 0;
+    border-bottom: 10px #4aaaa5;
+    color: #777777;
+  }
+  p{
+    padding:10px;
+  }
+
+  /* main section */
+  h2{
+      color: #4aaaa5;
+      font-family: 'Georgia';
+  }
+
+
+  .panel-default>.panel-heading{
+      background-color:white;
+      border-bottom: 2px solid #cccccc; 
+  }
+
+  /* form
+  
+
+  .form-control{
+      width:100%;
+  }
+
+
+/* submit button */
+.btn-primary{
+    padding:10px;
+    margin:10px;
+background-color: #4aaaa5;
+color: white;
+  }
+
+  .personal{
+    float: left;
+    padding: 20px;
+    width:400px; 
+}
+
+  /* footer */
+  .panel-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    line-height:20%;
+    border-top: 8px solid #4aaaa5;
+  } */
+
+  /* -------  portfolio section  ----------- */
+
+.Portfolio{
+  background-color: #4aaaa5;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* columns */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* content section for portfolio page */
+.content2 {
+  background-color: white;
+  /* padding: 10px; */
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  font-size: 25px;
+  bottom: 20px;
+  background-color: #4aaaa5;
+  color: white;
+  /* overflow: hidden; */
+  width:300px;
+  height:25%;
+  padding: 15px ;
+  text-align:center;
+  line-height:15px;
+  
+}
+/* -------  portfolio section end  --------- */
+  
+.email{
+    background: white;
+    /* color: black; */
+    font-size: 20px;
+    text-align:center;
+    padding-top:15px;
+}
+
+.phone{
+    background: white;
+    /* color: black; */
+    font-size: 20px;
+    text-align:center;
+    padding:15px;
+}
+
+.resume{
+    background: white;
+    text-align:center;
+    font-size:20px;
+}
+
+.repo{
+    text-align:center;
+}
