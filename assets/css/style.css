@@ -116,3 +116,7 @@ body{
 .repo{
    width: 10%;
 }
+
+.active{
+  font-size: 25px;
+}
