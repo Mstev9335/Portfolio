@@ -3,12 +3,12 @@
 .navbar-brand{
     background-color: #4aaaa5;
     color:white;
- 
 }
+
 .navbar-custom{
     background-color:white;
- 
 }
+
 .nav>li>a{
     color:#777777;
     cursor: default;
@@ -22,6 +22,7 @@ body{
     border-bottom: 10px #4aaaa5;
     color: #777777;
   }
+
   p{
     padding:10px;
   }
@@ -38,28 +39,6 @@ body{
       border-bottom: 2px solid #cccccc; 
   }
 
-  /* form
-  
-
-  .form-control{
-      width:100%;
-  }
-
-
-/* submit button */
-.btn-primary{
-    padding:10px;
-    margin:10px;
-background-color: #4aaaa5;
-color: white;
-  }
-
-  .personal{
-    float: left;
-    padding: 20px;
-    width:400px; 
-}
-
   /* footer */
   .panel-footer{
     position: fixed;
@@ -72,7 +51,7 @@ color: white;
     text-align: center;
     line-height:20%;
     border-top: 8px solid #4aaaa5;
-  } */
+  } 
 
   /* -------  portfolio section  ----------- */
 
@@ -99,7 +78,6 @@ color: white;
 /* content section for portfolio page */
 .content2 {
   background-color: white;
-  /* padding: 10px; */
 }
 
 .container {
@@ -107,36 +85,26 @@ color: white;
   font-family: Arial;
 }
 
-.text-block {
-  position: absolute;
-  font-size: 25px;
-  bottom: 20px;
-  background-color: #4aaaa5;
-  color: white;
-  /* overflow: hidden; */
-  width:300px;
-  height:25%;
-  padding: 15px ;
-  text-align:center;
-  line-height:15px;
-  
-}
-/* -------  portfolio section end  --------- */
+ .text-block {
+  overflow: hidden; 
+  padding: 10px ;
+  line-height:15px; 
+  font-size: 20px;
+  text-align: center;
+} 
   
 .email{
     background: white;
-    /* color: black; */
     font-size: 20px;
     text-align:center;
-    padding-top:15px;
+    padding-top:10px;
 }
 
 .phone{
     background: white;
-    /* color: black; */
     font-size: 20px;
     text-align:center;
-    padding:15px;
+    padding:10px;
 }
 
 .resume{
@@ -146,5 +114,5 @@ color: white;
 }
 
 .repo{
-    text-align:center;
+   width: 10%;
 }
