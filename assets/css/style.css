@@ -33,6 +33,7 @@ body{
       /* color: #4aaaa5; */
       color: #696969;
       font-family: 'Georgia';
+      text-align: center;
   }
 
   .panel-default>.panel-heading{
@@ -63,9 +64,6 @@ body{
   box-sizing: border-box;
 }
 
-.title{
-  text-align: center;
-}
 
 /* columns */
 .column {
